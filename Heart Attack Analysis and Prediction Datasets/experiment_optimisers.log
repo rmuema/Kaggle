@@ -1,0 +1,28 @@
+Log for Experiment Number 4 - SGD and ADAM
+
+
+experimental results with <tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000026432DDDBC8>
+
+ print classification performance for each experimental run
+[0.83977902 0.83977902 0.83425415 0.77900553 0.83977902] - Train
+[0.77868855 0.78688526 0.77049178 0.80327868 0.78688526] - Test
+ print mean and std of training performance
+0.82651934623718260.02385307898993678 - Train
+0.78524590730667110.010874182851820251 - Test
+
+experimental results with adam
+
+ print classification performance for each experimental run
+[0.7845304  0.83425415 0.76795578 0.67955804 0.75138122] - Train
+[0.77049178 0.77049178 0.79508197 0.57377046 0.78688526] - Test
+ print mean and std of training performance
+0.76353591680526730.05032174908689144 - Train
+0.73934425115585320.08333289560011688 - Test
+
+Best Results
+[0.82651935 0.76353592] - Train
+0.8265193462371826 - Best Train
+[0.78524591 0.73934425] - Test
+0.7852459073066711 - Best Test
+sgd - Best Optimizer
+(0.39488745683895593, 1.195167806203494) - 95% CI Best Testt

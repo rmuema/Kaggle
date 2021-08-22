@@ -1,0 +1,14 @@
+files:
+# Put file locations here
+    location: 'C:\Users\r.muema\Documents\Study\Kaggle Competitions\Heart Attack Analysis and Prediction Datasets\heart.csv'
+    output: 'C:\Users\r.muema\Documents\Study\Kaggle Competitions\Heart Attack Analysis and Prediction Datasets\data.csv'
+    utilities: 'C:\Users\r.muema\Documents\Study\Python\Code\utilities'
+    model_output: 'C:\Users\r.muema\Documents\Study\Python\Code\models\'
+
+validation:
+# Validation options
+    grid: True
+    CV: True
+
+Experiments:
+    MaxRun: 5

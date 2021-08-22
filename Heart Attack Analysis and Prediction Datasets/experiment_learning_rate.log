@@ -1,0 +1,64 @@
+Log for Experiment Number 2 - Learning Rates
+
+
+experimental results with 0.005 as the learning rate
+
+ print classification performance for each experimental run
+[0.65745854 0.65193373 0.67403316 0.58011049 0.59116024] - Train
+[0.57377046 0.63934427 0.54098362 0.49180329 0.5       ] - Test
+ print mean and std of training performance
+0.63093923330307010.037860425906652645 - Train
+0.54918032884597780.053874349175218675 - Test
+
+experimental results with 0.01 as the learning rate
+
+ print classification performance for each experimental run
+[0.72375691 0.8232044  0.71270716 0.79005527 0.75138122] - Train
+[0.68032789 0.78688526 0.72950822 0.75409836 0.77868855] - Test
+ print mean and std of training performance
+0.76022099256515510.041285176177479316 - Train
+0.74590165615081780.03844602819334631 - Test
+
+experimental results with 0.1 as the learning rate
+
+ print classification performance for each experimental run
+[0.85082871 0.85082871 0.83425415 0.85635358 0.84530389] - Train
+[0.78688526 0.78688526 0.78688526 0.78688526 0.78688526] - Test
+ print mean and std of training performance
+0.84751380681991570.007494278748152785 - Train
+0.78688526153564450.0 - Test
+
+experimental results with 0.3 as the learning rate
+
+ print classification performance for each experimental run
+[0.82872927 0.86740333 0.84530389 0.84530389 0.83977902] - Train
+[0.75409836 0.79508197 0.77868855 0.77868855 0.77868855] - Test
+ print mean and std of training performance
+0.84530388116836550.012598629604784145 - Train
+0.77704919576644890.013114759325986219 - Test
+
+experimental results with 0.6 as the learning rate
+
+ print classification performance for each experimental run
+[0.86187845 0.86740333 0.87845302 0.76795578 0.88950276] - Train
+[0.77868855 0.79508197 0.78688526 0.78688526 0.80327868] - Test
+ print mean and std of training performance
+0.85303866863250730.04358693038126643 - Train
+0.79016394615173340.008359038418176801 - Test
+
+experimental results with 0.9 as the learning rate
+
+ print classification performance for each experimental run
+[0.8232044  0.88950276 0.83425415 0.88950276 0.90607733] - Train
+[0.80327868 0.80327868 0.80327868 0.79508197 0.80327868] - Test
+ print mean and std of training performance
+0.86850827932357790.03322275514145514 - Train
+0.80163934230804450.0032786846160888674 - Test
+
+Best Results
+[0.63093923 0.76022099 0.84751381 0.84530388 0.85303867 0.86850828] - Train
+0.8685082793235779 - Best Train
+[0.54918033 0.74590166 0.78688526 0.7770492  0.79016395 0.80163934] - Test
+0.8016393423080445 - Best Test
+0.9 - Best Learning Rate
+(0.7047667164654695, 0.8970749041387275) - 95% CI Best Testt

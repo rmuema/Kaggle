@@ -1,0 +1,84 @@
+Log for Experiment Number 1 - Hidden Neurons
+
+
+experimental results with 5 number of neurons
+
+ print classification performance for each experimental
+[0.84530389 0.83977902 0.83977902 0.84530389 0.83977902] - Train
+[0.78688526 0.78688526 0.78688526 0.78688526 0.78688526] - Test
+ print mean and std of training performance
+0.84198896884918220.0027066243080861373 - Train
+0.78688526153564450.0 - Test
+
+experimental results with 10 number of neurons
+
+ print classification performance for each experimental
+[0.82872927 0.84530389 0.85082871 0.82872927 0.83977902] - Train
+[0.78688526 0.77868855 0.78688526 0.77868855 0.78688526] - Test
+ print mean and std of training performance
+0.83867403268814090.008839781582372455 - Train
+0.78360657691955570.004015552168465341 - Test
+
+experimental results with 15 number of neurons
+
+ print classification performance for each experimental
+[0.86740333 0.84530389 0.84530389 0.87845302 0.84530389] - Train
+[0.78688526 0.78688526 0.77049178 0.78688526 0.77868855] - Test
+ print mean and std of training performance
+0.85635360479354860.013976900704603126 - Train
+0.78196722269058230.006557390093813564 - Test
+
+experimental results with 20 number of neurons
+
+ print classification performance for each experimental
+[0.89502764 0.86740333 0.87845302 0.90055251 0.88397789] - Train
+[0.78688526 0.78688526 0.79508197 0.77868855 0.78688526] - Test
+ print mean and std of training performance
+0.88508287668228150.011797883973132065 - Train
+0.78688526153564450.005184055558097782 - Test
+
+experimental results with 30 number of neurons
+
+ print classification performance for each experimental
+[0.90055251 0.86740333 0.90607733 0.89502764 0.88950276] - Train
+[0.78688526 0.78688526 0.8114754  0.77868855 0.78688526] - Test
+ print mean and std of training performance
+0.89171271324157720.01335142613368674 - Train
+0.79016394615173340.011118560488455541 - Test
+
+experimental results with 100 number of neurons
+
+ print classification performance for each experimental
+[0.9116022  0.9116022  0.90607733 0.9116022  0.9116022 ] - Train
+[0.8114754  0.80327868 0.80327868 0.79508197 0.80327868] - Test
+ print mean and std of training performance
+0.91049722433090210.0022099494934082033 - Train
+0.80327868461608890.005184055558097782 - Test
+
+experimental results with 200 number of neurons
+
+ print classification performance for each experimental
+[0.91712707 0.93370163 0.92817682 0.91712707 0.91712707] - Train
+[0.78688526 0.78688526 0.77868855 0.77049178 0.77049178] - Test
+ print mean and std of training performance
+0.92265193462371830.006988455064476777 - Train
+0.77868852615356440.007331388334374698 - Test
+
+experimental results with 500 number of neurons
+
+ print classification performance for each experimental
+[0.93922651 0.92817682 0.93922651 0.93370163 0.94475138] - Train
+[0.76229507 0.76229507 0.74590164 0.76229507 0.77868855] - Test
+ print mean and std of training performance
+0.93701657056808470.005634269092398749 - Train
+0.76229507923126220.010368129964849504 - Test
+
+Best Results
+[0.84198897 0.83867403 0.8563536  0.88508288 0.89171271 0.91049722
+ 0.92265193 0.93701657] - Train
+0.9370165705680847 - Best Train
+[0.78688526 0.78360658 0.78196722 0.78688526 0.79016395 0.80327868
+ 0.77868853 0.76229508] - Test
+0.8032786846160889 - Best Test
+100 - Best Hidden Nuerons
+(0.854483472745088, 0.916511008699271) - 95% CI Best Testt

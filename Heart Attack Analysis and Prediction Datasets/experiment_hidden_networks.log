@@ -1,0 +1,37 @@
+Log for Experiment Number 3 - Different Hidden Layers
+
+
+experimental results with 1 hidden layers
+
+ print classification performance for each experimental run
+[0.80662984 0.82872927 0.83977902 0.83425415 0.79558009] - Train
+[0.79508197 0.75409836 0.78688526 0.79508197 0.78688526] - Test
+ print mean and std of training performance
+0.82099447250366210.016974916218789278 - Train
+0.78360656499862670.015202658286733475 - Test
+
+experimental results with 2 hidden layers
+
+ print classification performance for each experimental run
+[0.84530389 0.84530389 0.85635358 0.82872927 0.83977902] - Train
+[0.77868855 0.78688526 0.77868855 0.80327868 0.78688526] - Test
+ print mean and std of training performance
+0.84309393167495730.008976839670012378 - Train
+0.78688526153564450.00897904761588519 - Test
+
+experimental results with 3 hidden layers
+
+ print classification performance for each experimental run
+[0.89502764 0.8729282  0.86740333 0.88950276 0.85635358] - Train
+[0.78688526 0.78688526 0.78688526 0.80327868 0.79508197] - Test
+ print mean and std of training performance
+0.87624310255050660.014236576895016093 - Train
+0.79180328845977790.006557369232177735 - Test
+
+Best Results
+[0.82099447 0.84309393 0.8762431 ] - Train
+0.8762431025505066 - Best Train
+[0.78360656 0.78688526 0.79180329] - Test
+0.7918032884597779 - Best Test
+3 - Best Hidden Layers
+(0.7776985982191448, 0.9158557396002728) - 95% CI Best Testt
